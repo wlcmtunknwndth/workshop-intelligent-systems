@@ -1,0 +1,1248 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2/"
+     xml:base="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Владеет -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Владеет">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Владелец_питомца"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинна_шерсти_кошки -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинна_шерсти_кошки">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кошка"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Безшерстная"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинношерстная"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Короткошерстная"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Имеет -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Имеет">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Документы"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Работает -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Работает">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агент"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Размер_собаки -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Размер_собаки">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Собака"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Крупная"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип_выставки -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип_выставки">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Выставка"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Городская"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Международная"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Национальная"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Региональная"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип_животных_на_выставке -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип_животных_на_выставке">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мероприятие"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кошка"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Собака"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип_питомца -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип_питомца">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кошка"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Собака"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Участвует -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Участвует">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мероприятие"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Нашел_(завербовал) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Нашел_(завербовал)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агент"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Адрес -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Адрес">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Возраст_владельца -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Возраст_владельца">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Человек"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Возраст_питомца -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Возраст_питомца">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Город_проживания -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Город_проживания">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Владелец_питомца"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Дата_выдачи -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Дата_выдачи">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Документы"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Дата_мероприятия -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Дата_мероприятия">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мероприятие"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Дата_рождения -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Дата_рождения">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Паспорт"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Дата_создания -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Дата_создания">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Допуск_к_соревнования -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Допуск_к_соревнования">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ветеринарная_карта"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Имя -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Имя">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Человек"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#История_болезней -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#История_болезней">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ветеринарная_карта"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#История_прививок -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#История_прививок">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ветеринарная_карта"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кличка -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кличка">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Количество_питомцев -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Количество_питомцев">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Владелец_питомца"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Контакты -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Контакты">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Контакты_владельца -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Контакты_владельца">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Человек"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Местоположение -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Местоположение">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мероприятие"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Название -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Название">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Название_мероприятия -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Название_мероприятия">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мероприятие"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Наличие_документов -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Наличие_документов">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Номер_документа -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Номер_документа">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Документы"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Опыт_работы -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Опыт_работы">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агент"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Площадка -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Площадка">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Съемка"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Пол_питомца -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Пол_питомца">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Порода -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Порода">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кошка"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Собака"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Продолжительность -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Продолжительность">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Съемка"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ранг -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ранг">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Родословная -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Родословная">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Паспорт"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Специализация -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Специализация">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агент"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Список_достижений -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Список_достижений">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Портфолио"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип_владельца -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип_владельца">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Владелец_питомца"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип_кастинга -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип_кастинга">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кастинг"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип_съемки -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Тип_съемки">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Съемка"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Требования -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Требования">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кастинг"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Фамилия -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Фамилия">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Человек"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Фото -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Фото">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Паспорт"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Портфолио"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#ID_животного_(чип) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#ID_животного_(чип)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Паспорт"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агент -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агент">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Человек"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Владелец_питомца"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Безшерстная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Безшерстная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кошка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ветеринарная_карта -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ветеринарная_карта">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Документы"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Владелец_питомца -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Владелец_питомца">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Человек"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Выставка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Выставка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мероприятие"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кастинг"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Городская -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Городская">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Выставка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинношерстная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинношерстная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кошка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Документы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Документы"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кастинг -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кастинг">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мероприятие"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Короткошерстная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Короткошерстная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кошка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кошка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Кошка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Крупная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Крупная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Собака"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Собака"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Международная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Международная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Выставка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мероприятие -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мероприятие"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Национальная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Национальная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Выставка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Паспорт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Паспорт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Документы"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Портфолио -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Портфолио">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Документы"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Региональная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Региональная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Выставка"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Собака -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Собака">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Собака"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Съемка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Съемка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мероприятие"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Человек -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Человек"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Animal_Agency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Animal_Agency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <untitled-ontology-2:Название></untitled-ontology-2:Название>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Animal_Ambassodor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Animal_Ambassodor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <untitled-ontology-2:Название></untitled-ontology-2:Название>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Animal_Art -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Animal_Art">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <untitled-ontology-2:Название></untitled-ontology-2:Название>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Animal_Direction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Animal_Direction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <untitled-ontology-2:Название></untitled-ontology-2:Название>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Animal_Stars -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Animal_Stars">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <untitled-ontology-2:Название></untitled-ontology-2:Название>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#The_pets_agency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#The_pets_agency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <untitled-ontology-2:Название></untitled-ontology-2:Название>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Абиссинская -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Абиссинская">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Короткошерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Австралийская_овчарка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Австралийская_овчарка">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Английский_кокер-спаниэль -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Английский_кокер-спаниэль">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Английский_сеттер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Английский_сеттер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Бенгальская -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Бенгальская">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Короткошерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Боксер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Боксер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Борзая -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Борзая">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Крупная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Британская -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Британская">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Короткошерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Бульдог -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Бульдог">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Вельштерьер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Вельштерьер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Вест_Хайленд_Уайт_терьер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Вест_Хайленд_Уайт_терьер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Грейхаунд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Грейхаунд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Крупная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Доберман -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Доберман">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Крупная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Звери_в_кино -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Звери_в_кино">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+        <untitled-ontology-2:Название></untitled-ontology-2:Название>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Золотая_шиншила -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Золотая_шиншила">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинношерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ирландский_сеттер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ирландский_сеттер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Йоркширский_терьер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Йоркширский_терьер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Лабрадор_Ретривер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Лабрадор_Ретривер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Крупная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Лейклендский_терьер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Лейклендский_терьер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Лхаса_Аспо -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Лхаса_Аспо">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мальтийская_собака -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мальтийская_собака">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Манчикин -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Манчикин">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Короткошерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мейн-кун -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мейн-кун">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинношерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Миниатюрный_пинчер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Миниатюрный_пинчер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Невская_маскарадная -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Невская_маскарадная">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинношерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Немецкая_овчарка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Немецкая_овчарка">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Крупная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Норвежская_лесная -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Норвежская_лесная">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинношерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ньюфаундлен -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ньюфаундлен">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Крупная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ориентальная -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Ориентальная">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Короткошерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Пекинес -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Пекинес">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Персидская -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Персидская">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинношерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Пиксибоб -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Пиксибоб">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Короткошерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Пойтер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Пойтер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Крупная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Померанский_шпиц -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Померанский_шпиц">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Пудель -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Пудель">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Рэгдолл -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Рэгдолл">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинношерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Сиамская -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Сиамская">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Короткошерстная"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Сиамская_кошка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Сиамская_кошка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Сибирская -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Сибирская">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинношерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Сибирский_хаски -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Сибирский_хаски">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Крупная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Силихэм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Силихэм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Скоттиш_Дирхаунд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Скоттиш_Дирхаунд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Крупная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Сфинкс -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Сфинкс">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Безшерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Той-пудель -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Той-пудель">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Турецкая_ангора -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Турецкая_ангора">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинношерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Украинский_левкой -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Украинский_левкой">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Безшерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Хайленд-фолд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Хайленд-фолд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Длинношерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Чихуахуа -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Чихуахуа">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Шотландская_вислоухая -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Шотландская_вислоухая">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Короткошерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Шотландский_терьер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Шотландский_терьер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Маленькая"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Эльф -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Эльф">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Безшерстная"/>
+        <untitled-ontology-2:Порода></untitled-ontology-2:Порода>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Эрдельтерьер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Эрдельтерьер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Средняя"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Агенство"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Документы"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Домашний_питомец"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Мероприятие"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Человек"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Городская"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Международная"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Национальная"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elizaveta/ontologies/2024/10/untitled-ontology-2#Региональная"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

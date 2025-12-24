@@ -1,0 +1,18 @@
+name: default
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13.8
+  - jupyter
+  - jupyterlab
+  - pip
+  - pip:
+    - certifi==2025.11.12
+    - charset-normalizer==3.4.4
+    - experta==1.9.4
+    - frozendict==2.4.7
+    - idna==3.11
+    - requests==2.32.5
+    - schema==0.6.7
+    - urllib3==2.6.2

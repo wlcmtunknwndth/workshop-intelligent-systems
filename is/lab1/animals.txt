@@ -1,0 +1,11 @@
+7, Elephant, Herbivores, 4000, 3, Grass and vegetables, 242.16
+6, Giraffe, Herbivores, 1500, 5, Grass and vegetables, 93.6
+1, Lion, Predators, 235, 8, Meet and fish, 10.63
+2, Polar bear, Predators, 600, 7, Meet and fish, 9.04
+4, Tiger, Predators, 185, 8, Meet and fish, 8.94
+9, Zebra, Herbivores, 320, 4, Grass and vegetables, 8.83
+3, Brown bear, Omnivores, 400, 6, Any food, 5.58
+10, Wolf, Predators, 45, 8, Meet and fish, 4.22
+5, Raccoon, Omnivores, 7, 6, Any food, 0.86
+8, Hare, Herbivores, 5, 9, Grass and vegetables, 0.68
+11, Wight Hare, Herbivores, 5, 9, Grass and vegetables, 0.68
